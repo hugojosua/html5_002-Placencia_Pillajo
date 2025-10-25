@@ -19,10 +19,64 @@
             <li><a href="#contacto">contacto</a></li>
         </ul>
     </nav>
-
+    <header>
+        <h2>Programa de Actividades</h2>
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Actividad</th>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Partido: Equipo A vs Equipo B</td>
+            </tr>
+            <tr>
+                <td>12:00 PM</td>
+                <td>Competencia de habilidades</td>
+            </tr>
+            <tr>
+                <td>02:00 PM</td>
+                <td>Partido principal: Equipo C vs Equipo D</td>
 
 </head>
 <body>
-    
+    <footer>
+        <h1>Registro de Equipos y Jugadores</h1>
+
+    <form action="#" method="POST">
+        <!-- Información del equipo -->
+        <fieldset>
+            <legend>Datos del Equipo</legend>
+            <label for="team-name">Nombre del Equipo:</label>
+            <input type="text" id="team-name" name="team-name" required><br><br>
+
+            <label for="team-category">Categoría del Equipo:</label>
+            <select id="team-category" name="team-category" required>
+                <option value="">Selecciona una categoría</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Registro de jugadores -->
+        <fieldset>
+            <legend>Datos del Jugador</legend>
+            <label for="player-name">Nombre del Jugador:</label>
+            <input type="text" id="player-name" name="player-name" required><br><br>
+
+            <label for="player-position">Posición del Jugador:</label>
+            <input type="text" id="player-position" name="player-position" required><br><br>
+
+            <label for="player-age">Edad del Jugador:</label>
+            <input type="number" id="player-age" name="player-age" required><br><br>
+        </fieldset>
+
+        <br>
+        <button type="submit">Registrar Equipo y Jugador</button>
+    </form>
+    </footer>
 </body>
 </html>
