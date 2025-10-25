@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    
+ 
+<header>
+        <h1>Bienvenidos al Campeonato de Futbol 2025 </h1>
+        
+ </header>
+
+ <nav>
+        <ul>
+            <li><a href="#Equipos">Equipos</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#Reglamento">Reglamento</a></li>
+            <li><a href="#contacto">contacto</a></li>
+        </ul>
+ </nav>
+<header>
+        <h2>Programa de Actividades</h2>
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Actividad</th>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Partido: Equipo A vs Equipo B</td>
+            </tr>
+            <tr>
+                <td>12:00 PM</td>
+                <td>Competencia de habilidades</td>
+            </tr>
+            <tr>
+                <td>02:00 PM</td>
+                <td>Partido principal: Equipo C vs Equipo D</td>
+
+</head>
+<body>
+    
+</body>
+</html>
